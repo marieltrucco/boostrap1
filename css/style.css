@@ -1,0 +1,20 @@
+
+body{
+    background-image: url(image/mestizos);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    
+}
+.text-center{
+    text-align: center;
+}
+.logo-position{
+    display: inline;
+    margin:20px auto ;
+    max-width: auto;
+    max-height: 160px;
+    position:sticky;
+}
