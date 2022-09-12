@@ -5,49 +5,163 @@
 .pie-icon{
     width: 70px;
 }
-img a:hover{
- color: rgba(255, 255, 255, 0.4);
+.pie :hover{
+    transform-style: flat;
 }
+
+
+.imagen :hover {
+    transform:scale(1.1);transform:scale(1.1);
+    
+}
+body{
+    background-color: black;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja-principal{
+    width: 80%;
+    max-width: 600px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+}.container-contacto{
+    width: 80%;
+    max-width: 450px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.caja-video{
+    width: 600%;
+    max-width: 600px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    display:flex;
+    align-items:center;
+}
+
+.video-aline{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.disc-aline{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+  
 
 .body{
     width: 100;
     overflow: hidden;
 }
-h3,h5 {
+h3 {
     width: 100%;
     height: 10%;
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 
 }
-ul li{
+h5,p {
+    width: 100%;
+    height: 10%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1,5rem;
+    color: rgb(255, 255, 255);
+
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: yellow;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link{
+    text-decoration:none;
     text-align:center;
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 
 }
 .logo{
+    display: flex;
     text-align: center;
     
 }
-ul li a:hover{
-    color: rgb(100, 100, 100);
-}
+
 
 .bg-grey{
     background-color: rgba(255, 255, 255, 0.4);
     max-width:auto;
     max-height: max-content;
 }
-body{
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: rgba(255, 255, 255, 0.4);
 
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    color: black;
+    
+}
+nav img{
+    display: flex;
+    width: 300px;
+    align-items:stretch;
+}
+.btn-black{
+       
+        padding: 8px; 
+        background-color: rgb(0, 0, 0); 
+        color: rgb(255, 255, 255); 
+        text-decoration: none; 
+        text-transform: uppercase; 
+        font-family: 'Oswald', sans-serif; 
+        
+        
+
+}
+
+.container{
+    max-width: max-content;
+    max-height: max-content;
+}
+@media (max-width: 460px) {
+    .imagen{
+        display: block;
+    }
+
+    .imagen :hover {
+        transform:scale(1);transform:scale(1);
+        
+    }
     
 }
