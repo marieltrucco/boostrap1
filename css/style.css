@@ -6,14 +6,17 @@
     width: 70px;
 }
 .pie :hover{
-    transform-style: flat;
+    text-decoration: none;
 }
 
 
 .imagen :hover {
     transform:scale(1.1);transform:scale(1.1);
+
     
 }
+
+
 body{
     background-color: black;
 }
@@ -27,20 +30,28 @@ body{
     width: 80%;
     max-width: 600px;
     background: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-
-}.container-contacto{
-    width: 80%;
-    max-width: 450px;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 20px 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
     display: flex;
     align-items: center;
 }
+.container-contacto{
+    width: 50%;
+    max-width: 500px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    align-items:flex-end;
+
+}
+
+  
+  .aline-cont{
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
 
 
 
@@ -50,8 +61,8 @@ body{
     width: 600%;
     max-width: 600px;
     background: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 10px 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
     display:flex;
     align-items:center;
 }
@@ -91,18 +102,18 @@ h5,p {
     width: 100%;
     height: 10%;
     font-family: 'Oswald', sans-serif;
-    font-size: 1,5rem;
+    font-size: 2rem;
     color: rgb(255, 255, 255);
 
 
 }
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover{
     color: yellow;
 }
 
 
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link{
     text-decoration:none;
     text-align:center;
     font-family: 'Oswald', sans-serif;
@@ -153,15 +164,30 @@ nav img{
 .container{
     max-width: max-content;
     max-height: max-content;
+    
 }
-@media (max-width: 460px) {
-    .imagen{
-        display: block;
-    }
+
+@media (max-width:460px) {
+  .imagen{
+    display: block;
+    justify-content:center;
+    width:auto;
+    height:auto;
+  }
 
     .imagen :hover {
         transform:scale(1);transform:scale(1);
         
     }
+    .multimedia{
+        display: block;
+        justify-content: center;
+    }
+    .discografia{
+        display: inline-block;
+    }
+    
+
+    
     
 }
