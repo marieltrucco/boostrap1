@@ -164,7 +164,6 @@ nav img{
 .container{
     max-width: max-content;
     max-height: max-content;
-    
 }
 
 @media (max-width:460px) {
